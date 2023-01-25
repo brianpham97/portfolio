@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <nav name="header" className="w-full h-20 flex justify-between items-center bg-black px-6">
-      <Link to='/'>
+      <Link to='/portfolio'>
         <h1 id="logo" className="text-5xl text-white font-logo ml-2">BPham</h1>
       </Link>
       <ul className='flex gap-4 mr-2'>
