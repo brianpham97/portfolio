@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const NavHome = (props) => {
 
   return (
-    <div className="w-full h-[50vh] bg-gradient-to-b from-gray-800 to-black p-4 sm:h-[20vh]">
+    <div className="w-full bg-gradient-to-b from-gray-800 to-black p-4 sm:h-[20vh]">
       <div className="max-w-screen-lg mx-auto flex justify-center">
         <ul name="navhome" className="flex flex-col gap-x-20 gap-y-10 pt-10 mt-16 sm:flex-row sm:m-0">
           <li id="btn" className="btn-blue transition duration-500 text-center">
