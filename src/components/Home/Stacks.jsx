@@ -3,13 +3,6 @@ import { technology, future_stack } from './technology';
 
 const Stacks = () => {
 
-  const docker = {
-    image: "https://clouddayscom.files.wordpress.com/2020/06/docker-logo.png",
-    language: "Docker",
-    color: "shadow-blue-600",
-    link: "https://www.docker.com/",
-  }
-
   return (
       <div className='w-full h-full bg-gradient-to-b from-black to-gray-900'>
       <div className="flex flex-col justify-center text-white p-4">
@@ -26,12 +19,6 @@ const Stacks = () => {
             </div>
             )
           })}
-            <div className={`hidden shadow-md py-2 rounded-lg ${docker.color} sm:grid hover:scale-105`}>
-              <a href={docker.link} target="_blank">
-              <img src={docker.image} className="w-20 h-20 object-center object-contain mx-auto"/>
-              </a>
-              <p className="mt-4">{docker.language}</p>
-            </div>
         </div>
 
         <p className="text-4xl underline underline-offset-8 decoration-gray-500 self-center">Future Interests</p>

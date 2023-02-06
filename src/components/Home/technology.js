@@ -21,6 +21,12 @@ export const technology = [
     link: "https://reactjs.org/",
   },
   {
+    image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+    language: "Redux",
+    color: "shadow-purple-500",
+    link: "https://redux.js.org/",
+  },
+  {
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
     language: "Tailwind",
@@ -52,7 +58,13 @@ export const technology = [
     language: "AWS",
     color: "shadow-orange-500",
     link: "https://aws.amazon.com/",
-  }
+  },
+  {
+    image: "https://clouddayscom.files.wordpress.com/2020/06/docker-logo.png",
+    language: "Docker",
+    color: "shadow-blue-600",
+    link: "https://www.docker.com/",
+  },
 ];
 
 export const future_stack = [
