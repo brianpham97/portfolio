@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="https://github.com/brianpham97" target="_blank">
             <AiOutlineGithub className="text-xl hover:text-[#c9aa71]"/>
           </a>
-          <a href="https://github.com/brianpham97" target="_blank">
+          <a href="https://www.linkedin.com/in/lbrian-phaml/" target="_blank">
             <AiOutlineLinkedin className="text-xl hover:text-[#c9aa71]"/>
           </a>
         </div>
