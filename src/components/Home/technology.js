@@ -34,6 +34,12 @@ export const technology = [
     link: "https://tailwindcss.com/",
   },
   {
+    image: "https://mui.com/static/logo.png",
+    language: "Material UI",
+    color: "shadow-white",
+    link: "https://mui.com/",
+  },
+  {
     image: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
     language: "NodeJS, Express",
     color: "shadow-green-300",
