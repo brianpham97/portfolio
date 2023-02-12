@@ -22,7 +22,7 @@ const Stacks = () => {
         </div>
 
         <p className="text-4xl underline underline-offset-8 decoration-gray-500 self-center">Future Interests</p>
-        <div className="grid grid-cols-2 gap-4 text-center py-8 px-12">
+        <div className="grid grid-cols-2 gap-4 text-center py-8 px-12 sm:grid-cols-3 sm:px-0">
           {future_stack.map((stack, index) => {
             return (
               <div key={index} className={`shadow-md py-2 rounded-lg ${stack.color} hover:scale-105`}>

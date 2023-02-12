@@ -76,6 +76,13 @@ export const technology = [
 export const future_stack = [
   {
     image:
+      "https://www.creative-tim.com/assets/icon-nextjs-2a1bcdd2079d47a4f10c5620632a7994b8544ca0d5e5f11049e9c542142ca82b.jpg",
+    language: "Next.js",
+    color: "shadow-white",
+    link: "https://nextjs.org/",
+  },
+  {
+    image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
     language: "React Native",
     color: "shadow-blue-500",
