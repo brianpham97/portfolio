@@ -3,7 +3,7 @@
 Here is a personal portfolio with a responsive design I made for fun to document my projects over the course of my software engineering experience as well as to talk about some current interests and future plans I want to do ~
 
 Vite was used to start up the project and design was mostly done using TailwindCSS.
-[https://brianpham97.github.io/portfolio/](https://brianpham97.github.io/portfolio/)
+(https://brianpham97.github.io/portfolio/)
 
 ## Connect
 
