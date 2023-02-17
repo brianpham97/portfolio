@@ -41,7 +41,7 @@ export const technology = [
   },
   {
     image: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
-    language: "NodeJS, Express",
+    language: "NodeJS, Express, Koa",
     color: "shadow-green-300",
     link: "https://nodejs.org/en/",
   },
