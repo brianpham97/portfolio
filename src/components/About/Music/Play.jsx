@@ -28,7 +28,7 @@ const Play = () => {
       <audio id="bg-music" src={surrender}/>
       <div className="hidden sm:flex items-center justify-center gap-2">
         <div className="ml-2">
-          {!playing ? <AiOutlinePlayCircle className="text-xl text-white" onClick={playMusic} /> : <AiOutlinePauseCircle className="text-xl text-white" onClick={pauseMusic}/>}
+          {!playing ? <AiOutlinePlayCircle className="cursor-pointer text-xl text-white" onClick={playMusic} /> : <AiOutlinePauseCircle className="cursor-pointer text-xl text-white" onClick={pauseMusic}/>}
         </div>
         <h4 className="font-valo text-white text-lg">Click for Music</h4>
       </div>
