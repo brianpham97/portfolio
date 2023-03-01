@@ -3,7 +3,7 @@ import React from 'react';
 const RnB = () => {
 
   const description =
-    <div className="max-w-screen-md m-auto flex flex-col items-center mb-2">
+    <div className="max-w-screen-md m-auto flex flex-col items-center mb-5">
       <h1 className="text-4xl text-white underline underline-offset-8 decoration-gray-500">R&B</h1>
       <p className="text-gray-500 text-center mt-5">As I mentioned earlier, I only started getting into R&B pretty late as well. Most R&B I remember was from the radio when I as young but the desire to look for new R&B music to add to a playlist came pretty recently. Similar to my taste for edm music, I love lyrics and for R&B's case, I gravitate to the songs I find a strong feeling for in the lyrics and for the karaoke vibes.</p>
     </div>
@@ -23,7 +23,7 @@ const RnB = () => {
         <div className="w-full h-1/2 flex flex-col items-center shadow-md shadow-white text-white">
           <p className="mt-2">Current Favorite Songs:</p>
           <a href="https://www.youtube.com/watch?v=EO0MxdDQ73k" target="_blank">
-            <p className="hover:text-blue-500">Wait For You - Elliott Yamin</p>
+            <p className="hover:text-blue-500">- Wait For You - Elliott Yamin</p>
           </a>
           <a href="https://www.youtube.com/watch?v=_Gjuug_JCO8" target="_blank">
             <p className="hover:text-blue-500">- Mad - Ne-Yo</p>
