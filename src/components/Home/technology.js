@@ -28,16 +28,17 @@ export const technology = [
   },
   {
     image:
+      "https://miro.medium.com/v2/resize:fit:1400/1*elhu-42TzQEdsFjKDbQhhA.png",
+    language: "React Query",
+    color: "shadow-orange-400",
+    link: "https://tanstack.com/query/v3/",
+  },
+  {
+    image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
     language: "Tailwind",
     color: "shadow-blue-300",
     link: "https://tailwindcss.com/",
-  },
-  {
-    image: "https://mui.com/static/logo.png",
-    language: "Material UI",
-    color: "shadow-white",
-    link: "https://mui.com/",
   },
   {
     image: "https://cdn-icons-png.flaticon.com/512/919/919825.png",

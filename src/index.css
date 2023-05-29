@@ -13,10 +13,25 @@ body {
   padding: 0;
 }
 
+.loader-overlay {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loader-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 #logo:hover {
   transform: scale(1.01);
   text-shadow: 0 0 5px #ffff80;
 }
+
 .social-blue,
 .social-purple {
   display: inline-block;
@@ -57,11 +72,11 @@ body {
   width: 100%;
 }
 
-#container #pic-container {
+#pic-container #picture {
   position: relative;
 }
 
-#container #pic-container::before {
+#pic-container #picture::before {
   content: "";
   position: absolute;
   left: 0;
@@ -73,7 +88,7 @@ body {
   transition: all 0.8s ease;
 }
 
-#container #pic-container::after {
+#pic-container #picture::after {
   content: "";
   position: absolute;
   right: 0;
@@ -85,8 +100,8 @@ body {
   transition: all 0.8s ease;
 }
 
-#container:hover #pic-container::after,
-#container:hover #pic-container::before {
+#pic-container:hover #picture::after,
+#pic-container:hover #picture::before {
   border-color: rgb(96 165 250);
   height: 100%;
   width: 100%;
@@ -146,9 +161,37 @@ body {
   text-shadow: 0 0 5px white;
 }
 
+.genshin-shadow {
+  box-shadow: 0 0 0 2px #fffdfa, 0 2px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.diamond-icon {
+  position: relative;
+}
+
+.diamond-icon::after {
+  content: "";
+  position: absolute;
+  height: 0.75rem;
+  width: 0.75rem;
+  background: #c2ab77;
+  border: 1px solid #f2ede3;
+  box-shadow: 0 0 0 4px #c2ab77, 0 4px 8px 8px rgba(0, 0, 0, 0.05);
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
 #summ {
   background-color: #1c1e21;
   border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
   border-image-slice: 1;
   border-width: 2px;
+}
+
+.prevent-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
