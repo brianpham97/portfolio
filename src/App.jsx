@@ -5,9 +5,16 @@ import AppLayout from "./AppLayout";
 import Loader from "./utils/Loader";
 import NotFound from "./utils/404";
 
-const Home = lazy(() => import("./components/Home/Home"));
-const Projects = lazy(() => import("./components/Projects/Projects"));
-const About = lazy(() => import("./components/About/About"));
+const wait = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
+
+const Home = lazy(() => wait(300).then(() => import("./components/Home/Home")));
+
+const Projects = lazy(() =>
+  wait(300).then(() => import("./components/Projects/Projects"))
+);
+const About = lazy(() =>
+  wait(300).then(() => import("./components/About/About"))
+);
 
 const App = () => {
   return (
