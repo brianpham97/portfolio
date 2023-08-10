@@ -25,14 +25,14 @@ const App = () => {
   useEffect(() => {
     const loadElements = setTimeout(() => {
       setFirstRender(false);
-    }, 3750);
+    }, 4000);
 
     return () => clearTimeout(loadElements);
   }, []);
 
   return (
     <ErrorBoundary>
-      <Suspense fallback={<Loader />}>
+      <Suspense fallback={firstRender ? <ElementLoader /> : <Loader />}>
         <Routes>
           <Route
             path="/portfolio/*"
@@ -43,11 +43,7 @@ const App = () => {
                     <Route path="projects" element={<Projects />}></Route>
                     <Route path="about" element={<About />}></Route>
                     <Route path="*" element={<NotFound />} />
-                    {firstRender ? (
-                      <Route index element={<ElementLoader />} />
-                    ) : (
-                      <Route index element={<Home />}></Route>
-                    )}
+                    <Route index element={<Home />}></Route>
                   </Routes>
                 </ErrorBoundary>
               </AppLayout>
