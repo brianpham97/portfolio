@@ -13,6 +13,108 @@ body {
   padding: 0;
 }
 
+html,
+body {
+  background-color: black;
+}
+
+.loader-container {
+  width: 700px;
+  height: 100px;
+  transform: translate(-50%, -50%) scale(0.8);
+  transition: all 0.5s;
+  user-select: none;
+}
+
+.element-loader {
+  filter: drop-shadow(0 -500px 0 #2c2b30);
+}
+
+.loader-container::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  background: url("https://yuanshen.site/imgs/loading-bar.png") no-repeat left
+    100%;
+  background-size: 700px 100px;
+  animation: load 3.5s linear infinite forwards;
+}
+
+@media (max-width: 500px) {
+  .loader-container {
+    width: 450px;
+    height: 62.5px;
+    top: 40%;
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+
+  .element-loader {
+    height: 62.5px;
+  }
+
+  .loader-container::after {
+    content: "";
+    position: absolute;
+    height: 62.5px;
+    background: url("https://yuanshen.site/imgs/loading-bar.png") no-repeat left
+      100%;
+    background-size: 450px 62.5px;
+    animation: phone-load 3.5s linear infinite forwards;
+  }
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+    background-size: 700px 100px;
+  }
+
+  16.6% {
+  }
+
+  33.2% {
+  }
+
+  49.8% {
+  }
+
+  66.4% {
+  }
+
+  83% {
+  }
+
+  100% {
+    width: 700px;
+  }
+}
+
+@keyframes phone-load {
+  0% {
+    width: 0;
+    background-size: 450px 62.5px;
+  }
+
+  16.6% {
+  }
+
+  33.2% {
+  }
+
+  49.8% {
+  }
+
+  66.4% {
+  }
+
+  83% {
+  }
+
+  100% {
+    width: 450px;
+  }
+}
+
 .loader-overlay {
   top: 0;
   left: 0;
