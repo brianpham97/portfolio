@@ -43,7 +43,7 @@ const App = () => {
                     <Route path="projects" element={<Projects />}></Route>
                     <Route path="about" element={<About />}></Route>
                     <Route path="*" element={<NotFound />} />
-                    {!firstRender ? (
+                    {firstRender ? (
                       <Route index element={<ElementLoader />} />
                     ) : (
                       <Route index element={<Home />}></Route>
