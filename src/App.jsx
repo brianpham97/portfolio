@@ -26,11 +26,13 @@ const App = () => {
     const loadElements = setTimeout(() => {
       setFirstRender(false);
     }, 3750);
+
+    return () => clearTimeout(loadElements);
   }, []);
 
   return (
     <ErrorBoundary>
-      <Suspense fallback={firstRender ? <ElementLoader /> : <Loader />}>
+      <Suspense fallback={<Loader />}>
         <Routes>
           <Route
             path="/portfolio/*"
@@ -41,7 +43,11 @@ const App = () => {
                     <Route path="projects" element={<Projects />}></Route>
                     <Route path="about" element={<About />}></Route>
                     <Route path="*" element={<NotFound />} />
-                    <Route index element={<Home />}></Route>
+                    {!firstRender ? (
+                      <Route index element={<ElementLoader />} />
+                    ) : (
+                      <Route index element={<Home />}></Route>
+                    )}
                   </Routes>
                 </ErrorBoundary>
               </AppLayout>
