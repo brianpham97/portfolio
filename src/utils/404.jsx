@@ -3,7 +3,7 @@ import React from "react";
 const NotFound = () => {
   const redirect = (
     <a
-      href="http://localhost:3000/portfolio/"
+      href="https://brianpham97.github.io/portfolio/"
       className="text-blue-300 hover:text-blue-600"
     >
       here
