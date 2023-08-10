@@ -25,7 +25,7 @@ const App = () => {
   useEffect(() => {
     const loadElements = setTimeout(() => {
       setFirstRender(false);
-    }, 3500);
+    }, 3750);
 
     return () => clearTimeout(loadElements);
   }, []);
