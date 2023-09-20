@@ -263,6 +263,10 @@ body {
   text-shadow: 0 0 5px white;
 }
 
+.league a {
+  color: #c9aa71;
+}
+
 .genshin-shadow {
   box-shadow: 0 0 0 2px #fffdfa, 0 2px 4px 4px rgba(0, 0, 0, 0.05);
 }

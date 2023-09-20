@@ -14,7 +14,7 @@ const Hobbies = () => {
           {hobby.image}
           <div
             className={`h-80 sm:w-[50%] rounded-b-2xl border-t-[1px] ${
-              hobby.name === "League of Legends" && "border-[#c9aa71]"
+              hobby.name === "League of Legends" && "border-[#00aeef]"
             } ${hobby.name === "MAL" && "border-blue-700"}  sm:ml-1`}
           >
             {hobby.description(hobby.site)}

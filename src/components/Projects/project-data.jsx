@@ -28,7 +28,7 @@ export const project_data = [
     image:
       "https://user-images.githubusercontent.com/107714292/193191473-d3357da3-866f-48dd-b4bc-30e6580ce374.gif",
     description:
-      "Created a Rest API for a ratings and reviews section for an e-commerce website and scaled it for over 1000 users per second",
+      "Simulator for users to render a league of legends champion based on what categories and play styles they are interested to help pick a champion",
     tech_stack: (
       <div className="absolute inset-0 group-hover:bg-gray-500 group-hover:opacity-90">
         <div className="absolute inset-0 flex flex-col translate-y-[100%] items-center justify-center text-center transition-all duration-500 group-hover:translate-y-0">

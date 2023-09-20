@@ -15,7 +15,7 @@ export const hobby_data = [
     ),
 
     site: (
-      <span className="text-[#c9aa71] underline">
+      <span className="text-[#00aeef] underline">
         <a
           href="https://www.leagueoflegends.com/en-us/"
           target="_blank"
@@ -27,28 +27,28 @@ export const hobby_data = [
     ),
 
     description: (site) => (
-      <div className="h-[12rem] w-full shadow-md shadow-[#c9aa71]">
-        <p className="text-gray-500 ml-2 p-2">
+      <div className="h-[12rem] w-full shadow-md shadow-[#00aeef]">
+        <p className="text-gray-500 ml-2 p-2 league">
           One of my favorite video games of all time is {site} by Riot Games. I
           started this game in 2015 and is currently the only game I play for
           competitive fun. The character I enjoy playing the most is Vayne
-          because of her stylish outplay potential. Currently in gold but this
-          year I'm looking to climb to Platinum for the first time!
+          because of her stylish outplay potential. Finally hit plat for the
+          first time and looking to climb to Emerald next!
         </p>
       </div>
     ),
 
     ranking: (
-      <div className="h-[8rem] sm:h-[11rem] w-1/2 flex justify-center items-center shadow-md shadow-[#c9aa71]">
+      <div className="h-[8rem] sm:h-[11rem] w-1/2 flex justify-center items-center shadow-md shadow-[#00aeef]">
         <img
           className="h-[3/4] w-[3/4]"
-          src="https://lolg-cdn.porofessor.gg/img/s/league-icons-v3/160/4.png?v=8"
+          src="https://lolg-cdn.porofessor.gg/img/s/league-icons-v3/160/5.png?v=8"
         />
       </div>
     ),
 
     profile: (
-      <div className="h-[8rem] sm:h-[11rem] w-1/2 flex justify-center items-center shadow-md shadow-[#c9aa71]">
+      <div className="h-[8rem] sm:h-[11rem] w-1/2 flex justify-center items-center shadow-md shadow-[#00aeef]">
         <h2
           id="summ"
           className="font-games text-[#cdbe91] bg-[#0f1923] text-2xl p-3"
@@ -218,7 +218,7 @@ export const hobby_data = [
         <div className="relative flex justify-center items-center bg-[#fffdfa] border-[3px] border-[#c2ab77] genshin-shadow">
           <div className="flex justify-center items-center diamond-icon after:ml-8"></div>
           <div className="p-3 text-[#3b4354] text-l font-bold ml-5">
-            Adventure Rank 59
+            Adventure Rank 60
           </div>
         </div>
       </div>
