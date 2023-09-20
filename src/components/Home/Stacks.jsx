@@ -14,14 +14,12 @@ const Stacks = () => {
             return (
               <div
                 key={index}
-                className={`shadow-md py-2 rounded-lg ${tech.color} hover:scale-105`}
+                className={`shadow-md py-2 rounded-lg ${tech.color}`}
               >
-                <a href={tech.link} target="_blank">
-                  <img
-                    src={tech.image}
-                    className="w-20 h-20 object-center object-contain mx-auto"
-                  />
-                </a>
+                <img
+                  src={tech.image}
+                  className="w-20 h-20 object-center object-contain mx-auto"
+                />
                 <p className="mt-4">{tech.language}</p>
               </div>
             );
@@ -36,14 +34,12 @@ const Stacks = () => {
             return (
               <div
                 key={index}
-                className={`shadow-md py-2 rounded-lg ${stack.color} hover:scale-105`}
+                className={`shadow-md py-2 rounded-lg ${stack.color}`}
               >
-                <a href={stack.link} target="_blank">
-                  <img
-                    src={stack.image}
-                    className="w-20 h-20 object-center object-contain mx-auto"
-                  />
-                </a>
+                <img
+                  src={stack.image}
+                  className="w-20 h-20 object-center object-contain mx-auto"
+                />
                 <p className="mt-4">{stack.language}</p>
               </div>
             );
