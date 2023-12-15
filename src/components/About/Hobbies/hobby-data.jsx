@@ -151,7 +151,9 @@ export const hobby_data = [
           target="_blank"
           rel="noreferrer"
         >
-          <p className="text-center hover:text-blue-500">#2 Mongatari series</p>
+          <p className="text-center hover:text-blue-500">
+            #2 Monogatari series
+          </p>
         </a>
         <a
           href="https://myanimelist.net/anime/38680/Fruits_Basket_1st_Season?q=fruits%20basket&cat=anime"
