@@ -1,3 +1,20 @@
+import vayne from "../../../pictures/vayne.jpeg";
+import plat from "../../../pictures/plat.png";
+import jett from "../../../pictures/jett.jpeg";
+import fmab from "../../../pictures/fmab.jpeg";
+import genshin from "../../../pictures/genshin.jpg";
+
+// Vayne image
+// "url(https://ddragon.leagueoflegends.com/cdn/img/champion/centered/Vayne_10.jpg)",
+// Plat image
+// "https://lolg-cdn.porofessor.gg/img/s/league-icons-v3/160/5.png?v=8"
+// Jett image
+// "url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt909ba6b565908b76/6259e1e12777714c51b30c0a/Jett_1920x1080.jpg)"
+// FMAB image
+// "url(https://bingeddata.s3.amazonaws.com/uploads/2021/09/Fullmetal-Alchemist-Brotherhood-1.jpg)"
+// Genshin image
+// "url(https://pbs.twimg.com/media/Fr9OPzMWAAErMaf.jpg)"
+
 export const hobby_data = [
   {
     name: "League of Legends",
@@ -5,8 +22,7 @@ export const hobby_data = [
     image: (
       <div
         style={{
-          backgroundImage:
-            "url(https://ddragon.leagueoflegends.com/cdn/img/champion/centered/Vayne_10.jpg)",
+          backgroundImage: `url(${vayne})`,
         }}
         className="h-80 sm:h-[23rem] sm:w-1/2 flex flex-col justify-end items-center bg-cover bg-center bg-no-repeat"
       >
@@ -40,10 +56,7 @@ export const hobby_data = [
 
     ranking: (
       <div className="h-[8rem] sm:h-[11rem] w-1/2 flex justify-center items-center shadow-md shadow-[#00aeef]">
-        <img
-          className="h-[3/4] w-[3/4]"
-          src="https://lolg-cdn.porofessor.gg/img/s/league-icons-v3/160/5.png?v=8"
-        />
+        <img className="h-[3/4] w-[3/4]" src={plat} />
       </div>
     ),
 
@@ -64,8 +77,7 @@ export const hobby_data = [
     image: (
       <div
         style={{
-          backgroundImage:
-            "url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt909ba6b565908b76/6259e1e12777714c51b30c0a/Jett_1920x1080.jpg)",
+          backgroundImage: `url(${jett})`,
         }}
         className="h-80 sm:h-[23rem] sm:w-1/2 flex flex-col justify-end items-center bg-cover bg-center bg-no-repeat sm:ml-1"
       >
@@ -117,8 +129,7 @@ export const hobby_data = [
     image: (
       <div
         style={{
-          backgroundImage:
-            "url(https://bingeddata.s3.amazonaws.com/uploads/2021/09/Fullmetal-Alchemist-Brotherhood-1.jpg)",
+          backgroundImage: `url(${fmab})`,
         }}
         className="h-[22rem] sm:w-1/2 flex flex-col justify-end items-center bg-cover bg-center"
       ></div>
@@ -185,8 +196,7 @@ export const hobby_data = [
     image: (
       <div
         style={{
-          backgroundImage:
-            "url(https://pbs.twimg.com/media/Fr9OPzMWAAErMaf.jpg:medium)",
+          backgroundImage: `url(${genshin})`,
         }}
         className="h-80 sm:h-[23rem] sm:w-1/2 flex flex-col justify-end items-center bg-cover bg-no-repeat sm:ml-1"
       ></div>

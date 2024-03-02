@@ -10,15 +10,22 @@ const NavHome = (props) => {
           name="navhome"
           className="flex flex-col gap-x-20 gap-y-10 pt-10 mt-16 sm:flex-row sm:m-0"
         >
-          <li id="btn" className="btn-blue transition duration-500 text-center">
-            <Link to="/portfolio/projects">Projects</Link>
-          </li>
-          <li
-            id="btn"
-            className="btn-litepurple transition duration-500 text-center"
-          >
-            <Link to="/portfolio/about">About Me</Link>
-          </li>
+          <Link to="/portfolio/projects">
+            <li
+              id="btn"
+              className="btn-blue transition duration-500 text-center"
+            >
+              Projects
+            </li>
+          </Link>
+          <Link to="/portfolio/about">
+            <li
+              id="btn"
+              className="btn-litepurple transition duration-500 text-center"
+            >
+              About Me
+            </li>
+          </Link>
           <a
             href="https://github.com/brianpham97/portfolio/raw/main/Brian_Pham_Resume.pdf"
             target="_blank"

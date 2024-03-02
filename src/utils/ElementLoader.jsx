@@ -1,4 +1,5 @@
 import React from "react";
+import elementLoader from "../pictures/element-loader.png";
 
 const ElementLoader = () => {
   return (
@@ -6,7 +7,8 @@ const ElementLoader = () => {
       <div className="loader-container absolute top-1/2 left-1/2 overflow-hidden">
         <img
           className="element-loader absolute top-[500px] left-[0] w-full h-[100px]"
-          src="https://yuanshen.site/imgs/loading-bar.png"
+          src={elementLoader}
+          // src="https://yuanshen.site/imgs/loading-bar.png"
           alt="Loading..."
         />
       </div>
