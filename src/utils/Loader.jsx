@@ -1,5 +1,5 @@
 import React from "react";
-import hutao from "../pictures/hutao.png";
+import hutao from "../images/hutao.png";
 
 const Loader = () => {
   return (

@@ -1,8 +1,8 @@
-import vayne from "../../../pictures/vayne.jpeg";
-import plat from "../../../pictures/plat.png";
-import jett from "../../../pictures/jett.jpeg";
-import fmab from "../../../pictures/fmab.jpeg";
-import genshin from "../../../pictures/genshin.jpg";
+import vayne from "../../../images/vayne.jpeg";
+import plat from "../../../images/plat.png";
+import jett from "../../../images/jett.jpeg";
+import fmab from "../../../images/fmab.jpeg";
+import genshin from "../../../images/genshin.jpg";
 
 // Vayne image
 // "url(https://ddragon.leagueoflegends.com/cdn/img/champion/centered/Vayne_10.jpg)",

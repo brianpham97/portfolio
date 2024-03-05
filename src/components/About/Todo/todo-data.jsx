@@ -1,5 +1,5 @@
-import korea from "../../../pictures/korea.jpeg";
-import japan from "../../../pictures/japan.jpeg";
+import korea from "../../../images/korea.jpeg";
+import japan from "../../../images/japan.jpeg";
 
 export const todo_data = [
   {

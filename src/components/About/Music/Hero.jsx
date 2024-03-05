@@ -1,13 +1,13 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-scroll";
+import music_hero from "../../../images/music-hero.jpg";
 
 const Hero = () => {
   return (
     <div
       style={{
-        backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(https://www.billboard.com/wp-content/uploads/2022/05/EDC-Las-Vegas-2022-cr-Keiki-Lani-Knudsen-1548.jpg)",
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(${music_hero})`,
       }}
       className="w-full h-[50vh] flex flex-col justify-center items-center bg-cover bg-bottom sm:bg-center"
     >

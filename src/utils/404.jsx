@@ -1,4 +1,5 @@
 import React from "react";
+import ganyu from "../images/ganyu.jpg";
 
 const NotFound = () => {
   const redirect = (

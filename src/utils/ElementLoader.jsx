@@ -1,5 +1,5 @@
 import React from "react";
-import elementLoader from "../pictures/element-loader.png";
+import elementLoader from "../images/element-loader.png";
 
 const ElementLoader = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../pictures/me.png";
+import me from "../../images/me.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-scroll";
 
