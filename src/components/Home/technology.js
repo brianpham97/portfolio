@@ -1,72 +1,82 @@
+import javascriptLogo from "../../images/javascript.png";
+import typescriptLogo from "../../images/typescript.png";
+import reactLogo from "../../images/react.png";
+import reduxLogo from "../../images/redux.png";
+import reactQueryLogo from "../../images/react_query.png";
+import tailwindLogo from "../../images/tailwind.png";
+import nodeLogo from "../../images/node.png";
+import postgresLogo from "../../images/postgres.png";
+import awsLogo from "../../images/aws.png";
+import dockerLogo from "../../images/docker.png";
+import claudeLogo from "../../images/claude.png";
+import figmaLogo from "../../images/figma.png";
+
 export const technology = [
   {
-    image:
-      "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
+    image: javascriptLogo,
     language: "Javascript",
     color: "shadow-yellow-500",
   },
   {
-    image:
-      "https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2020/12/11/ts-logo-512.png",
+    image: typescriptLogo,
     language: "Typescript",
     color: "shadow-white",
   },
   {
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    image: reactLogo,
     language: "React",
     color: "shadow-blue-500",
   },
   {
-    image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+    image: reduxLogo,
     language: "Redux",
     color: "shadow-purple-500",
   },
   {
-    image:
-      "https://miro.medium.com/v2/resize:fit:1400/1*elhu-42TzQEdsFjKDbQhhA.png",
+    image: reactQueryLogo,
     language: "React Query",
     color: "shadow-orange-400",
   },
   {
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
+    image: tailwindLogo,
     language: "Tailwind",
     color: "shadow-blue-300",
   },
   {
-    image: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+    image: nodeLogo,
     language: "NodeJS, Express, Koa",
     color: "shadow-green-300",
   },
   {
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png",
+    image: postgresLogo,
     language: "PostgreSQL",
     color: "shadow-blue-200",
   },
   {
-    image:
-      "https://res.cloudinary.com/hevo/image/upload/v1626694700/hevo-blog/MongoDB-sm-logo-500x400-1-1.gif",
-    language: "MongoDB",
-    color: "shadow-green-500",
-  },
-  {
-    image: "https://www.jdrf.org/wp-content/uploads/2020/12/AWS-logo-2.jpg",
+    image: awsLogo,
     language: "AWS",
     color: "shadow-orange-500",
   },
   {
-    image: "https://clouddayscom.files.wordpress.com/2020/06/docker-logo.png",
+    image: dockerLogo,
     language: "Docker",
     color: "shadow-blue-600",
+  },
+  {
+    image: claudeLogo,
+    language: "Claude Code",
+    color: "shadow-orange-500",
+  },
+  {
+    image: figmaLogo,
+    language: "Figma MCP",
+    color: "shadow-green-300",
   },
 ];
 
 export const future_stack = [
   {
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    image: reactLogo,
     language: "React Native",
     color: "shadow-blue-500",
   },

@@ -268,7 +268,9 @@ body {
 }
 
 .genshin-shadow {
-  box-shadow: 0 0 0 2px #fffdfa, 0 2px 4px 4px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 0 0 2px #fffdfa,
+    0 2px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .diamond-icon {
@@ -282,12 +284,14 @@ body {
   width: 0.75rem;
   background: #c2ab77;
   border: 1px solid #f2ede3;
-  box-shadow: 0 0 0 4px #c2ab77, 0 4px 8px 8px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 0 0 4px #c2ab77,
+    0 4px 8px 8px rgba(0, 0, 0, 0.05);
   transform: rotate(45deg);
   transform-origin: center;
 }
 
-#summ {
+#ign {
   background-color: #1c1e21;
   border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
   border-image-slice: 1;
