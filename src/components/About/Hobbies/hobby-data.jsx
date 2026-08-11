@@ -1,4 +1,4 @@
-// import maplestory from "../../../images/maplestory.png";
+import maplestory from "../../../images/maplestory.png";
 import taih3n from "../../../images/taih3n.png";
 import fmab from "../../../images/fmab.jpeg";
 import genshin from "../../../images/genshin.jpg";
@@ -7,7 +7,12 @@ export const hobby_data = [
   {
     name: "MapleStory",
     image: (
-      <div className="h-80 sm:h-[23rem] sm:w-1/2 flex flex-col justify-end items-center bg-cover bg-no-repeat sm:ml-1"></div>
+      <div
+        style={{
+          backgroundImage: `url(${maplestory})`,
+        }}
+        className="h-80 sm:h-[23rem] sm:w-1/2 flex flex-col justify-end items-center bg-cover bg-no-repeat sm:ml-1"
+      ></div>
     ),
 
     site: (
